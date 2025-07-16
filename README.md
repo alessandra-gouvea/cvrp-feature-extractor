@@ -1,4 +1,3 @@
-Of course. Here is the English translation of the README.md file.
 # CVRP Feature Extractor (C++)
 
 ![Language](https://img.shields.io/badge/Language-C%2B%2B17-blue.svg) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
