@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcvrp_lib.a CMakeFiles/cvrp_lib.dir/src/core/CVRP.cpp.o CMakeFiles/cvrp_lib.dir/src/core/Node.cpp.o CMakeFiles/cvrp_lib.dir/src/core/FeatureExtractor.cpp.o CMakeFiles/cvrp_lib.dir/src/io/CVRParser.cpp.o CMakeFiles/cvrp_lib.dir/src/io/CSVExporter.cpp.o CMakeFiles/cvrp_lib.dir/src/algorithms/MultidimensionalScaling.cpp.o CMakeFiles/cvrp_lib.dir/src/extractors/DirectStatisticsCalculator.cpp.o CMakeFiles/cvrp_lib.dir/src/extractors/GeometricFeatureCalculator.cpp.o CMakeFiles/cvrp_lib.dir/src/utils/StatisticsCalculator.cpp.o
+/usr/bin/ranlib libcvrp_lib.a

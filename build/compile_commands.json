@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/build",
+  "command": "/usr/bin/clang++  -I/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/include -I/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/libs/eigen-3.4.0 -g -std=gnu++17 -arch arm64 -o CMakeFiles/cvrp_lib.dir/src/core/CVRP.cpp.o -c /Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/src/core/CVRP.cpp",
+  "file": "/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/src/core/CVRP.cpp",
+  "output": "CMakeFiles/cvrp_lib.dir/src/core/CVRP.cpp.o"
+},
+{
+  "directory": "/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/build",
+  "command": "/usr/bin/clang++  -I/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/include -I/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/libs/eigen-3.4.0 -g -std=gnu++17 -arch arm64 -o CMakeFiles/cvrp_lib.dir/src/core/Node.cpp.o -c /Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/src/core/Node.cpp",
+  "file": "/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/src/core/Node.cpp",
+  "output": "CMakeFiles/cvrp_lib.dir/src/core/Node.cpp.o"
+},
+{
+  "directory": "/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/build",
+  "command": "/usr/bin/clang++  -I/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/include -I/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/libs/eigen-3.4.0 -g -std=gnu++17 -arch arm64 -o CMakeFiles/cvrp_lib.dir/src/core/FeatureExtractor.cpp.o -c /Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/src/core/FeatureExtractor.cpp",
+  "file": "/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/src/core/FeatureExtractor.cpp",
+  "output": "CMakeFiles/cvrp_lib.dir/src/core/FeatureExtractor.cpp.o"
+},
+{
+  "directory": "/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/build",
+  "command": "/usr/bin/clang++  -I/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/include -I/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/libs/eigen-3.4.0 -g -std=gnu++17 -arch arm64 -o CMakeFiles/cvrp_lib.dir/src/io/CVRParser.cpp.o -c /Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/src/io/CVRParser.cpp",
+  "file": "/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/src/io/CVRParser.cpp",
+  "output": "CMakeFiles/cvrp_lib.dir/src/io/CVRParser.cpp.o"
+},
+{
+  "directory": "/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/build",
+  "command": "/usr/bin/clang++  -I/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/include -I/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/libs/eigen-3.4.0 -g -std=gnu++17 -arch arm64 -o CMakeFiles/cvrp_lib.dir/src/io/CSVExporter.cpp.o -c /Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/src/io/CSVExporter.cpp",
+  "file": "/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/src/io/CSVExporter.cpp",
+  "output": "CMakeFiles/cvrp_lib.dir/src/io/CSVExporter.cpp.o"
+},
+{
+  "directory": "/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/build",
+  "command": "/usr/bin/clang++  -I/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/include -I/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/libs/eigen-3.4.0 -g -std=gnu++17 -arch arm64 -o CMakeFiles/cvrp_lib.dir/src/algorithms/MultidimensionalScaling.cpp.o -c /Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/src/algorithms/MultidimensionalScaling.cpp",
+  "file": "/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/src/algorithms/MultidimensionalScaling.cpp",
+  "output": "CMakeFiles/cvrp_lib.dir/src/algorithms/MultidimensionalScaling.cpp.o"
+},
+{
+  "directory": "/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/build",
+  "command": "/usr/bin/clang++  -I/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/include -I/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/libs/eigen-3.4.0 -g -std=gnu++17 -arch arm64 -o CMakeFiles/cvrp_lib.dir/src/extractors/DirectStatisticsCalculator.cpp.o -c /Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/src/extractors/DirectStatisticsCalculator.cpp",
+  "file": "/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/src/extractors/DirectStatisticsCalculator.cpp",
+  "output": "CMakeFiles/cvrp_lib.dir/src/extractors/DirectStatisticsCalculator.cpp.o"
+},
+{
+  "directory": "/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/build",
+  "command": "/usr/bin/clang++  -I/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/include -I/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/libs/eigen-3.4.0 -g -std=gnu++17 -arch arm64 -o CMakeFiles/cvrp_lib.dir/src/extractors/GeometricFeatureCalculator.cpp.o -c /Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/src/extractors/GeometricFeatureCalculator.cpp",
+  "file": "/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/src/extractors/GeometricFeatureCalculator.cpp",
+  "output": "CMakeFiles/cvrp_lib.dir/src/extractors/GeometricFeatureCalculator.cpp.o"
+},
+{
+  "directory": "/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/build",
+  "command": "/usr/bin/clang++  -I/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/include -I/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/libs/eigen-3.4.0 -g -std=gnu++17 -arch arm64 -o CMakeFiles/cvrp_lib.dir/src/utils/StatisticsCalculator.cpp.o -c /Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/src/utils/StatisticsCalculator.cpp",
+  "file": "/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/src/utils/StatisticsCalculator.cpp",
+  "output": "CMakeFiles/cvrp_lib.dir/src/utils/StatisticsCalculator.cpp.o"
+},
+{
+  "directory": "/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/build",
+  "command": "/usr/bin/clang++  -I/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/app.dir/src/main.cpp.o -c /Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/src/main.cpp",
+  "file": "/Users/lemarli/Library/CloudStorage/Dropbox/PosDoc_PRV/03_Implementacao/cvrp-feature-extractor/src/main.cpp",
+  "output": "CMakeFiles/app.dir/src/main.cpp.o"
+}
+]

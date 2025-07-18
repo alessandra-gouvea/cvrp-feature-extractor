@@ -1,0 +1,2 @@
+Error processing file: Could not open file: caminho/para/arquivo.vrp
+Error processing file: Could not open file: data/instances/A-n32-k5.vrp
