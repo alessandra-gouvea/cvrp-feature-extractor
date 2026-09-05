@@ -26,5 +26,11 @@ The main objective of this project is to provide a fast and efficient tool for t
 * C++17: The core language for performance and control.
 * CMake: The build automation system.
 
+#### External Libraries:
+*   **Boost (version 1.74 or higher):** A collection of high-quality C++ libraries. It is **required** for advanced geometry and graph calculations.
+    *   **Required Modules:** `Boost.Geometry`, `Boost.Graph`.
+*   **(Future) mlpack & Armadillo:** For Machine Learning features, such as DBSCAN clustering.
+
 📄 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
+

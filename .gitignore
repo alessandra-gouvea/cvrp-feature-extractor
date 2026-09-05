@@ -1,41 +1,56 @@
-# Prerequisites
-*.d
+# ============================================
+# Build (CMake)
+# ============================================
+build/
+cmake-build-*/
+compile_commands.json
 
-# Compiled Object files
-*.slo
-*.lo
+# ============================================
+# Dependências externas
+# ============================================
+libs/
+
+# ============================================
+# Artefatos de compilação
+# ============================================
+*.d
 *.o
 *.obj
-
-# Precompiled Headers
+*.slo
+*.lo
 *.gch
 *.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
 *.so
 *.dylib
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
 *.a
 *.lib
-
-# Executables
+*.la
+*.lai
 *.exe
 *.out
-*.app
-
-# debug information files
 *.dwo
+*.pdb
+*.ilk
+
+# ============================================
+# Dados
+# ============================================
+data/instances/
+data/instances_*/
+data/instancesD/
+data/dimacs/
+data/output/
+*.vrp
+
+# Exceções: resultados curados que sustentam o artigo
+!data/output/guardar/
+!data/output/instancias_alvo.txt
+
+# ============================================
+# Sistema e editores
+# ============================================
+.DS_Store
+.vscode/
+.idea/
+.metadata/

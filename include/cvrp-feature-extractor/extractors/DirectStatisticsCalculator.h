@@ -27,22 +27,7 @@ private:
      * @brief Calcula as features DS1: Distribution of distance matrix values.
      * @return Retorna o vetor de distâncias para que possa ser reutilizado por outras funções.
      */
-    std::vector<double> calculate_ds1_features(const CVRP& problem, FeatureSet& features) const;
-
-    /**
-     * @brief Calcula as features DS2: Fraction of Distinct Distances.
-     */
-    void calculate_ds2_features(const std::vector<double>& all_distances, FeatureSet& features) const;
-
-    /**
-     * @brief Calcula a feature DS3: Distance Matrix Symmetry Classification.
-     */
-    void calculate_ds3_features(const CVRP& problem, FeatureSet& features) const;
-
-    /**
-     * @brief Calcula as features DS4: Triangle Inequality Adherence.
-     */
-    void calculate_ds4_features(const CVRP& problem, FeatureSet& features) const;
+    std::vector<double> calculate_ds_features(const CVRP& problem, FeatureSet& features) const;
 };
 
 #endif /* DIRECTSTATISTICSCALCULATOR_H_ */

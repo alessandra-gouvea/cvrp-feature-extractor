@@ -8,6 +8,30 @@
 #include <vector>
 
 /**
+ * @struct NormalizationContext
+ * @brief Armazena todos os dados brutos de uma instância que são necessários
+ *        para a normalização teórica, mas que não são features em si.
+ */
+struct NormalizationContext {
+    int n = 0;                  // Número de nós (dimensão)
+    double bb_width = 0.0;      // Largura do Bounding Box
+    double bb_height = 0.0;     // Altura do Bounding Box
+    
+    // Mapeia um prefixo de feature (ex: "GB4.2_k3") para o valor de k usado.
+    // Isso torna a normalização das features k-NNG flexível.
+    std::map<std::string, int> k_values; 
+};
+
+/**
+ * @struct ExtractionResult
+ * @brief Encapsula todos os resultados da extração de features.
+ */
+struct ExtractionResult {
+    FeatureSet features;
+    NormalizationContext context;
+};
+
+/**
  * @class FeatureExtractor
  * @brief Orquestra o cálculo de um conjunto de features para uma instância CVRP.
  *
@@ -20,7 +44,7 @@ class FeatureExtractor {
 public:
     FeatureExtractor() = default;
 
-    FeatureSet extractFeatures(const CVRP& problem) const;
+    ExtractionResult extractFeatures(const CVRP& problem) const;
 
 private:
 

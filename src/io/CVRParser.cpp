@@ -6,6 +6,7 @@
  */
 
 #include <cvrp-feature-extractor/io/CVRParser.h>
+#include <iostream>
 
 std::pair<std::string, std::string> CVRParser::readKeyValue(const std::string& line) const {
     std::string key, value;
@@ -24,8 +25,14 @@ std::pair<std::string, std::string> CVRParser::readKeyValue(const std::string& l
 
 // Function to read the problem file
 ProblemData CVRParser::loadProblemFile(const std::string& filename) const { 
+    // --- ADIÇÃO 1: Adicione esta linha para depuração ---
+    //std::cout << "DEBUG: Tentando abrir o arquivo '" << filename << "'" << std::endl;
+    // ---------------------------------------------------
     std::ifstream file(filename);
 	if (!file.is_open()) {
+        // --- ADIÇÃO 2: Adicione esta linha para depuração ---
+        //std::cerr << "DEBUG: ERRO - ifstream falhou em abrir o arquivo." << std::endl;
+        // ----------------------------------------------------
 		throw std::runtime_error("Could not open file: " + filename);
 	}
 
@@ -36,6 +43,13 @@ ProblemData CVRParser::loadProblemFile(const std::string& filename) const {
 
 	while (getline(file, line)) {
         lineNumber++;
+
+    // --- ADIÇÃO PARA ROBUSTEZ ---
+    // Remove o caractere de carriage return (\r) se ele existir no final da linha
+    if (!line.empty() && line.back() == '\r') {
+        line.pop_back();
+    }
+    // ----------------------------
         
         // Limpa a linha
         line.erase(0, line.find_first_not_of(" \t"));

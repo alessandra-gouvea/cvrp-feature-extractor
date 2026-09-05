@@ -5,6 +5,7 @@
 #include <string>
 #include <fstream>
 #include <map>
+#include <vector>
 
 
 /**
@@ -31,12 +32,14 @@ public:
 private:
     std::ofstream m_outputFile;
     bool m_headerWritten = false;
+    std::vector<std::string> m_headers;
 
     /**
      * @brief Método auxiliar para escrever o cabeçalho do CSV.
      * @param features Um conjunto de features de amostra para extrair os nomes das colunas.
      */
     void writeHeader(const FeatureSet& features);
+    void writeHeader(); 
 };
 
 #endif /* CSVEXPORTER_H_ */
