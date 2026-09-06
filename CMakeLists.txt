@@ -3,8 +3,6 @@ cmake_minimum_required(VERSION 3.16)
 
 project(cvrp-feature-extractor LANGUAGES CXX)
 
-include(ExternalProject)
-
 # --- CONFIGURAÇÃO PARA HOMEBREW ---
 if(APPLE)
     list(APPEND CMAKE_PREFIX_PATH /opt/homebrew)
@@ -19,19 +17,10 @@ find_package(Cereal REQUIRED)
 find_package(ortools REQUIRED)
 
 # --- DEPENDÊNCIA LOCAL (mlpack) ---
-# Esta etapa apenas "instala" os headers em um local conhecido para nós.
-set(MLPACK_INSTALL_DIR ${CMAKE_BINARY_DIR}/mlpack-install)
-ExternalProject_Add(
-    mlpack_external
-    SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/libs/mlpack-4.6.2
-    INSTALL_DIR ${MLPACK_INSTALL_DIR}
-    # Nós não precisamos de um passo de build/binary_dir se estamos apenas instalando headers.
-    CMAKE_ARGS -DCMAKE_INSTALL_PREFIX:PATH=${MLPACK_INSTALL_DIR}
-    # Força a etapa de instalação a ser executada.
-    BUILD_COMMAND ""
-    UPDATE_COMMAND ""
-)
-set(MLPACK_INCLUDE_DIRS ${MLPACK_INSTALL_DIR}/include)
+# mlpack 4.x é header-only: basta apontar para a árvore de fontes.
+# Não usamos ExternalProject porque o passo de install dele depende do alvo
+# `all`, o que compilaria os ~50 executáveis CLI do mlpack sem necessidade.
+set(MLPACK_INCLUDE_DIRS ${CMAKE_CURRENT_SOURCE_DIR}/libs/mlpack-4.6.2/src)
 
 # --- ORGANIZAÇÃO DOS ARQUIVOS FONTE ---
 set(CVRP_LIB_SOURCES
@@ -79,5 +68,4 @@ target_link_libraries(cvrp_lib
         ortools::ortools
 )
 
-add_dependencies(cvrp_lib mlpack_external)
 target_link_libraries(cvrp_app PRIVATE cvrp_lib)
