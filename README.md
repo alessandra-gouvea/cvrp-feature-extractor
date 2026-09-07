@@ -2,6 +2,12 @@
 
 ![Language](https://img.shields.io/badge/Language-C%2B%2B17-blue.svg) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
+> **⚠️ Status: Under construction**
+>
+> This code is under active development and should not yet be considered stable.
+>
+> Use the results with caution until this review is complete.
+
 A C++ tool for the comprehensive extraction of features from Capacitated Vehicle Routing Problem (CVRP) instances. The goal is to convert raw instance files (TSPLib) into feature vectors for use in meta-learning tasks.
 
 ## 🎯 Objective
