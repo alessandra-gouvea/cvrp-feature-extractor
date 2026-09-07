@@ -46,6 +46,16 @@ The main objective of this project is to provide a fast and efficient tool for t
 * ensmallen & Cereal: Transitive dependencies required by mlpack.
 * OR-Tools: Used for solver-based probing features (e.g., route centroid calculations).
 
+## 🤖 AI Usage Declaration
+
+In compliance with CNPq Portaria nº 2.664/2026 on research integrity, this project discloses the use of Generative AI tools:
+
+* **Tool:** Claude (Anthropic)
+* **Stage:** Code review, throughout ongoing development
+* **Purpose:** Reviewing implementation decisions against software engineering best practices and assessing memory-efficiency choices in the codebase. Claude Code was also used to apply the resulting edits (e.g., this README).
+
+No code logic in this repository was authored end-to-end by AI without review; all changes are reviewed and approved by the project maintainer before being committed.
+
 📄 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
